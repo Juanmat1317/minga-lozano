@@ -5,6 +5,7 @@ export default function Carousel({
   description,
 }) {
   return (
+    <>
     <div className="hidden lg:inline-block w-full h-72 py-10 mt-[100px] ">
       <div className=" h-[200px] bg-[#4338CA] rounded-md mb-12 w-[85%] mx-24 flex items-center relative ">
         <img
@@ -35,5 +36,6 @@ export default function Carousel({
         />
       </div>
     </div>
+    </>
   );
 }

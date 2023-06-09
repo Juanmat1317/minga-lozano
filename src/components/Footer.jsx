@@ -6,7 +6,7 @@ export default function Footer() {
         src="src/assets/images/img-footer-ovalo.png"
         alt=""
       />
-      <div className="md:flex justify-between md:items-center sm:px-[300px] max-sm:px-[100px] md:relative lg:relative lg:px-[50px] md:px-[60px] max-w-[900px] m-auto mt-[100px] ">
+      <div className="md:flex justify-between md:items-center sm:px-[300px] max-sm:px-[100px] max-sm:ml-12 md:relative lg:relative lg:px-[50px] md:px-[60px] max-w-[900px] m-auto mt-[100px] ">
         <div className="font-poppins md:flex lg:flex max-sm:ml-[60px] justify-between mb-10 font-normal text-[#7A7A7A]">
           <p className="mr-10 sm:ml-[10px] max-sm:ml-[10px] relative">Home</p>
           <p className="ml-8 sm:ml-[10px] max-sm:ml-[10px]">Manga</p>

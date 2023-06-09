@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Index from "./pages";
+import Index from "./pages/Index.jsx";
+import Main from "./layouts/Main.jsx";
+
 function App() {
   let data = [
     {
@@ -12,13 +12,11 @@ function App() {
     },
   ];
   return (
-    <>
-      <div className='w-full h-[1000px] lg:h-[500px] bg-center absolute bg-[url("./assets/images/backgroundHome.svg")] mb[10px] bg-no-repeat bg-cover '>
-        <Navbar />
+    <div className='w-full h-[1400px] lg:h-[550px] bg-center absolute bg-[url("./assets/images/backgroundHome.svg")] mb[10px] bg-no-repeat bg-cover '>
+      <Main>
         <Index data={data} />
-        <Footer />
-      </div>
-    </>
+      </Main>
+    </div>
   );
 }
 
